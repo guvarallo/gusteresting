@@ -11,6 +11,7 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'sass-rails', '>= 3.2'
 gem 'autoprefixer-rails'
 gem 'devise'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
   gem 'spring'
