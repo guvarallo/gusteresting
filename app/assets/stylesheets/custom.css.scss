@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg: #fff;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 45px;
+$navbar-inverse-bg: #27ae60;
+$navbar-inverse-link-color: white;
+$brand-primary: #f39c12;
+$brand-success: #27ae60;
+@import 'bootstrap';
+@import "bootstrap-sprockets";
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+
+
+
+
+
