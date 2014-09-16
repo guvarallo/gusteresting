@@ -7,8 +7,14 @@ $navbar-inverse-bg: #27ae60;
 $navbar-inverse-link-color: white;
 $brand-primary: #f39c12;
 $brand-success: #27ae60;
+$icon-font-path: 'bootstrap/'; /*Corrects the issue of not showing glyphicons */
+
 @import 'bootstrap';
 @import "bootstrap-sprockets";
+
+.jumbotron {
+  background: white;
+}
 
 .navbar-brand {
   font-weight: bold;
