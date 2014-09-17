@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
 
 $body-bg: #fff;
 $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -24,8 +25,19 @@ $icon-font-path: 'bootstrap/'; /*Corrects the issue of not showing glyphicons */
   margin-left: 22px;
 }
 
+.jumbotron h1 {
+  font-family: 'Sigmar One', cursive;
+  color: #f39c12;
+}
 
+.jumbotron h1 span {
+  font-family: 'Sigmar One', cursive;
+  color: #27ae60;
+}
 
+.navbar-header {
+  font-family: 'Sigmar One', cursive;
+}
 
 
 
