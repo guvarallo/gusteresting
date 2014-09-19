@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/css?family=Sigmar+One);
 
-$body-bg: #fff;
 $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height: 45px;
 $navbar-inverse-bg: #27ae60;
@@ -13,8 +12,15 @@ $icon-font-path: 'bootstrap/'; /*Corrects the issue of not showing glyphicons */
 @import 'bootstrap';
 @import "bootstrap-sprockets";
 
+#home { 
+background: url(iPhone.jpg) 50% 0 repeat fixed; min-height: 350px;
+}
+
 .jumbotron {
-  background: white;
+  height: 350px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background-color: transparent;
 }
 
 .navbar-brand {
