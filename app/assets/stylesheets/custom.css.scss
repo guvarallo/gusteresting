@@ -8,7 +8,6 @@ $brand-success: white;
 $icon-font-path: 'bootstrap/'; /*Corrects the issue of not showing glyphicons */
 
 @import 'bootstrap';
-@import "bootstrap-sprockets";
 
 #home { 
   background: url(iPhone.jpg) 50% 0 repeat fixed; 
