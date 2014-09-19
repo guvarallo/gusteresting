@@ -3,33 +3,26 @@
 
 $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height: 45px;
-$navbar-inverse-link-color: white;
-$brand-success: white;
+$navbar-inverse-link-color: #fff;
+$brand-success: #fff;
 $icon-font-path: 'bootstrap/'; /*Corrects the issue of not showing glyphicons */
 
 @import 'bootstrap';
 
 #home { 
-  background: url(iPhone.jpg) 50% 0 repeat fixed; 
-  min-height: 1000px; /* Allows background to go as down as possible */
+  background: url(space.jpg) 50% 0 repeat fixed; 
+  min-height: 350px; /* Allows background to go as down as possible */
 }
 
 .jumbotron {
   height: 350px;
-  color: white;
-  text-shadow: #444 0px 1px 1px;
+  color: #fff;
   background-color: transparent;
 }
 
 .jumbotron h1 {
   font-family: 'Sigmar One', cursive;
-  color: white;
-}
-
-.navbar {
-   background-color: transparent;
-   background: transparent;
-   border: none;
+  color: #fff;
 }
 
 .navbar-brand {
@@ -44,23 +37,19 @@ $icon-font-path: 'bootstrap/'; /*Corrects the issue of not showing glyphicons */
   margin-left: 22px;
 }
 
-a:link {color: white; text-decoration: none; }
-a:active {color: white; text-decoration: none; }
-a:visited {color: white; text-decoration: none; }
-a:hover {color: white; text-decoration: underline; }
-
-#about {
-  color: white;
-}
+a:link {color: #000; text-decoration: none; }
+a:active {color: #000; text-decoration: none; }
+a:visited {color: #000; text-decoration: none; }
+a:hover {color: #000; text-decoration: underline; }
 
 .new_pin {
-  color: white;
+  color: #000;
 }
 
 .panel-footer {
-  a:link {color: black; text-decoration: none; }
-  a:active {color: black; text-decoration: none; }
-  a:visited {color: black; text-decoration: none; }
-  a:hover {color: black; text-decoration: underline; }
+  a:link {color: #000; text-decoration: none; }
+  a:active {color: #000; text-decoration: none; }
+  a:visited {color: #000; text-decoration: none; }
+  a:hover {color: #000; text-decoration: underline; }
 }
 
