@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
+ruby '2.1.1'
 
 gem 'rails', '4.1.5'
 gem 'uglifier', '>= 1.3.0'
@@ -16,6 +16,7 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'masonry-rails', '~> 0.2.0'
 gem 'will_paginate', '~> 3.0.5'
 gem 'will_paginate-bootstrap'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'spring'
