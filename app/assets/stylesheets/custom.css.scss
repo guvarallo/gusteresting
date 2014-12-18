@@ -3,14 +3,14 @@
 
 $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height: 45px;
-$navbar-inverse-link-color: #fff;
+$navbar-inverse-link-color: #000;
 $brand-success: #fff;
 $icon-font-path: 'bootstrap/'; /*Corrects the issue of not showing glyphicons */
 
 @import 'bootstrap';
 
 #home { 
-  background: url(space.jpg) 50% 0 repeat fixed; 
+  background: url(space.jpg) 50% 0 repeat fixed;
   min-height: 350px; /* Allows background to go as down as possible */
 }
 
@@ -28,6 +28,8 @@ $icon-font-path: 'bootstrap/'; /*Corrects the issue of not showing glyphicons */
 
 .navbar {
   margin-bottom: 0px;
+  background-color: transparent;
+  border: none;
 }
 
 .navbar-brand {
@@ -51,10 +53,10 @@ a:hover {color: #000; text-decoration: underline; }
   color: #000;
 }
 
-.panel-footer {
-  a:link {color: #000; text-decoration: none; }
-  a:active {color: #000; text-decoration: none; }
-  a:visited {color: #000; text-decoration: none; }
-  a:hover {color: #000; text-decoration: underline; }
+.panel-footer, .navbar {
+  a:link {color: #000 !important; text-decoration: none; }
+  a:active {color: #000 !important; text-decoration: none; }
+  a:visited {color: #000 !important; text-decoration: none; }
+  a:hover {color: #000 !important; text-decoration: none; }
 }
 
